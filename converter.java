@@ -11,6 +11,7 @@ class converter{
 
         Scanner in = new Scanner(System.in);
         input = in.nextInt();
+        in.close();
 
         switch(input){
             case 1:     //conversion to png
